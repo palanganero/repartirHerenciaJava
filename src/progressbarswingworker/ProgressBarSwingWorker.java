@@ -144,9 +144,10 @@ public class ProgressBarSwingWorker {
                 //nCombCombTotales++;
                 if (checkTodosLosNumeros(Empty_Array)) {
                     numerodecombinacionescombinaciones++;
-                    for (int x = 0; x < r; x++) {                        
+                    //System.out.println(numerodecombinacionescombinaciones);
+                    /*for (int x = 0; x < r; x++) {                        
                         
-                    }
+                    }*/
                 }
                 
             }
@@ -531,7 +532,8 @@ public class ProgressBarSwingWorker {
                 
                 numberCombinationCombinationPossible(combinaciones, nEmpty_Empty_Array, 0, combinaciones.length - 1, 0, nHerederos);
                 
-                System.out.println("nCombCombTotales(las reales):" + nCombCombTotales);
+                //System.out.println("nCombCombTotales(las reales):" + nCombCombTotales);
+                System.out.println("numerodecombinacionescombinaciones(las reales):" + numerodecombinacionescombinaciones);
                 combinacionesCombinaciones = new Bien[numerodecombinacionescombinaciones][nHerederos][k];
                 Bien Empty_Empty_Array[][] = new Bien[nHerederos][nCombTotales];
                 CombinationCombinationPossible(combinaciones, Empty_Empty_Array, 0, combinaciones.length - 1, 0, nHerederos);
